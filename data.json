@@ -1,0 +1,987 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Thanks",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "Thanks so much",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "Thank you",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "Thanks bot",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "cheers",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "ok thanks!",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "perfect thank you",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "thanks a bunch for everything",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "thanks for the help",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "amazing, thanks",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "cool, thanks",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "Many Thanks",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yes",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "y",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "cool",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "Y",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "Yes",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "absolutely",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "done",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yes, it did",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "definitely",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "no",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "No",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "n",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "N",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "I don't think so",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Nope",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "don't like that",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "not really",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "see you",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Hi Bot",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hey ",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey ",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "are you around?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hello is anybody here",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "stop",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "end",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "have a good day",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "bye bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "it was nice meeting you",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "bye bot",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "catch you later",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "i am leaving now",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "have to go",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "i want to meet doctor",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "i am not feeling well",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "i want to make an appointment",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "I wanted to ask about the doctor",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "Can you tell me the timings of Doctor?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "How many days in a week is Doctor available?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "I want to know the schedule of Doctor",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "When can I meet Doctor?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "I want to meet dentist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "dentist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "dentist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "dentist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": " i want an appointment with dentist?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 35,
+            "value": "dentist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "When is dentist available?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "dentist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "Tell me the schedule of dentist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "dentist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "when can i come to meet a dentist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "dentist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "When can i meet dentist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "dentist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "Tell me the schedule of ENT specialist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 38,
+            "value": "ENT specialist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "I want an appointment with ENT specialist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 27,
+            "end": 41,
+            "value": "ENT specialist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "I want to meet ENT specialist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 29,
+            "value": "ENT specialist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "ENT specialist",
+        "intent": "",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "ENT specialist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "When is ENT specialist available",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "available",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "I want to do an eyecheckup",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "value": "eyecheckup",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "When can i do eyecheckup",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "eyecheckup",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "Tell me the schedule of eyecheckup",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "eyecheckup",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "I want to meet psychiatrist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 27,
+            "value": "psychiatrist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "When can i meet psychiatrist?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 28,
+            "value": "psychiatrist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "I wanted to book an appointment with psychiatrist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 37,
+            "end": 49,
+            "value": "psychiatrist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "psychiatrist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "psychiatrist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "Tell me the schedule of psychiatrist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 36,
+            "value": "psychiatrist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "I want to meet Gynecologist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 27,
+            "value": "Gynecologist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "i want an appointment with gynecologist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 27,
+            "end": 39,
+            "value": "gynecologist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "Tell me the schedule of gynecologist",
+        "intent": "",
+        "entities": [
+          {
+            "start": 24,
+            "end": 36,
+            "value": "gynecologist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "gynecologist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "gynecologist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "When can i meet gynecologist?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 28,
+            "value": "gynecologist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "I want to meet thyroid specialist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 33,
+            "value": "thyroid specialist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "I wanted to book an appointment with thyroid specialist",
+        "intent": "",
+        "entities": [
+          {
+            "start": 37,
+            "end": 55,
+            "value": "thyroid specialist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "Tell me the schedule of thyroid specialist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 42,
+            "value": "thyroid specialist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "thyroid specialist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "thyroid specialist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "When can i meet thyroid specialist?",
+        "intent": "",
+        "entities": [
+          {
+            "start": 16,
+            "end": 34,
+            "value": "thyroid specialist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "i want to meet ortho specialist",
+        "intent": "",
+        "entities": [
+          {
+            "start": 15,
+            "end": 31,
+            "value": "ortho specialist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "When I can meet ortho specialist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 32,
+            "value": "ortho specialist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "I want an appointment with ortho specialist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 27,
+            "end": 43,
+            "value": "ortho specialist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "ortho specialist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "ortho specialist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "Tell me the schedule of ortho specialist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 40,
+            "value": "ortho specialist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "I want to meet Gastrologist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 27,
+            "value": "Gastrologist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "When can i meet Gastrologist?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 28,
+            "value": "Gastrologist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "Tell me the schedule of gastrologist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 36,
+            "value": "gastrologist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "gastrologist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "gastrologist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "I want an appointment with gastrologist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 27,
+            "end": 39,
+            "value": "gastrologist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "I want to meet Diabetologist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 28,
+            "value": "Diabetologist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "tell me the schedule of diabetologist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 37,
+            "value": "diabetologist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "I want an appointment with diabetologist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 27,
+            "end": 40,
+            "value": "diabetologist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "diabetologist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "diabetologist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "Tell me the schedule of diabetologist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 37,
+            "value": "diabetologist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "i want to book an appointment with a neuro surgeon",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 37,
+            "end": 50,
+            "value": "neuro surgeon",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "When can i meet neuro surgeon",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 29,
+            "value": "neuro surgeon",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "I want to meet neuro surgeon",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 28,
+            "value": "neuro surgeon",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "Tell me the schedule of neuro surgeon",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 37,
+            "value": "neuro surgeon",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "neuro surgeon",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "neuro surgeon",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "I want to meet skin specialist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 30,
+            "value": "skin specialist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "Tell me the schedule of skin specialist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 39,
+            "value": "skin specialist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "I want to book an appointment with a skin specialist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 37,
+            "end": 52,
+            "value": "skin specialist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "When can i meet a skin specialist?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 33,
+            "value": "skin specialist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "skin specialist",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "skin specialist",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "I wanted to book an appointment with General Doctor",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 37,
+            "end": 51,
+            "value": "General Doctor",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "General Doctor",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "General Doctor",
+            "entity": "specialist"
+          }
+        ]
+      },
+      {
+        "text": "I wanted to meet General Doctor",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 31,
+            "value": "General Doctor",
+            "entity": "specialist"
+          }
+        ]
+      }
+    ]
+  }
+}

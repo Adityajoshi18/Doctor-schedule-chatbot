@@ -1,0 +1,38 @@
+slots:
+  specialist:
+    type: text
+
+
+intents:
+ - greet
+ - goodbye
+ - affirm
+ - inform
+ - deny
+  
+entities:
+ - specialist
+    
+actions:
+  - utter_greet
+  - utter_goodbye
+  - action_appointment
+  - utter_ask
+  - utter_ask_specialization
+  - utter_gratitude
+
+templates:
+  utter_greet:
+  - text: "Hello! How can I help?"
+  - text: "Hi! What can I do for you?"
+  utter_goodbye:
+  - text: "Bye :)"
+  - text: "Talk to you later"
+  utter_ask:
+  - text: "Did that help you?"
+  utter_ask_specialization:
+  - text: "Okay! Let's start again, please tell me your specialist?"
+  - text: "Please mention your specialist or specialization?"
+  utter_gratitude:
+  - text: "No problem! Happy to help :)"
+  - text: "Glad that I could help you!"
